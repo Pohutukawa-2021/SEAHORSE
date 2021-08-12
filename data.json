@@ -1,1 +1,51 @@
+{
+  "Themes": [{
+    "Mammals":{
+      "id": 1,
+      "themeImage": "",
+      "team": [{"name": "Rats",
+                 "image":""},
 
+                {"name": "SeaLions",
+                  "image":""},
+
+                {"name": "Whales",
+                  "image":""},
+
+                {"name": "Bats",
+                  "image":""}
+                ]  
+
+    }},
+   {"Cars": {
+      "id": 2,
+      "themeImage": "",
+      "team": [{"name": "Beetles",
+        "image":""},
+
+         {"name": "Toyotas",
+         "image":""},
+
+       {"name": "Mahindras",
+         "image":""},
+
+       {"name": "Bats",
+         "image":""}
+       ]  
+    }}   
+  ],
+
+  "peopleNames": 
+  [{"name": "Ali",
+    "image":""},
+
+   {"name": "Austin",
+     "image":""},
+
+   {"name": "Prabhnoor",
+     "image":""},
+
+   {"name": "Kieran",
+     "image":""}
+   ]  
+}

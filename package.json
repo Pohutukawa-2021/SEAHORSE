@@ -1,0 +1,30 @@
+{
+  "name": "seahorse",
+  "version": "1.0.0",
+  "description": "BEST TEAM 4EVR &lt;3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index --ignore data.json",
+    "lint": "eslint .",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pohutukawa-2021/SEAHORSE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pohutukawa-2021/SEAHORSE/issues"
+  },
+  "homepage": "https://github.com/Pohutukawa-2021/SEAHORSE#readme",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-eda": "^0.1.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "handlebar": "^1.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
