@@ -1,5 +1,7 @@
 const express = require('express')
-const { assignGroups } = require('./random')
+const { assignGroups, assignGroupNames } = require('./random')
+const path = require('path')
+const fs = require('fs')
 
 const router = express.Router()
 
@@ -14,8 +16,18 @@ router.get('/:id', (req, res) => {
         }
         else {
             const parsedPeopleName=JSON.parse(data)
-             const viewData={themes:parsedPeopleName.peopleNames}
+            const viewData={
+                teams: "lol"
+
+            }
+           
+            const teamNames = assignGroups(parsedPeopleName.peopleNames)
+            const foundTeam = parsedPeopleName.Themes.find(elem => elem.id === Number(req.params.id))
+
+            const finalTeams = assignGroupNames(foundTeam.team, teamNames)
+            viewData.teams = finalTeams             //final teams means that everythinig is done!! (final, duh!)
+
              console.log(viewData)
-             res.render(template, viewData)
+             res.render(template, viewData)     // template is 'details'
         }
     })})

@@ -35,15 +35,4 @@ server.get('/', (req, res) => {
              res.render(template,viewData)
         }
     })
-
-
-
-
-
-
-    // getTeamsData(getDataAsObject => {
-    //     const viewData = {
-    //         themes: getDataAsObject
-    //     }
-    // })
 })

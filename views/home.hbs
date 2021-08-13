@@ -1,7 +1,8 @@
 <div class="container">
   {{#each themes}}
   <div class="puppy-list">
-    <a href="/puppies/{{id}}"><img class="img-circle" src="{{themeImage}}" alt="{{name}}"></a>
+    <div onclick="playAudio({{id}})" id="clickMe"></div><img class="img-circle" src="{{themeImage}}" alt="{{name}}"></a>
   </div>
   {{/each}}
 </div>
+
