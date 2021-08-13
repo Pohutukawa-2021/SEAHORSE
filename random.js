@@ -1,7 +1,7 @@
-module.exports = {randomiser}
+module.exports = {assignGroups, assignGroupNames}
 
 
-function randomiser(teamObj, peoplesNamesArray){
+function assignGroups(peoplesNamesArray){
   const teams = [[],[],[],[]]// push peoples names into array
   const length = peoplesNamesArray.length
   const remainder = length %4
@@ -41,58 +41,19 @@ function randomiser(teamObj, peoplesNamesArray){
     }
   }
 
-  console.log(teams);
+  return teams
 }
 
+ function assignGroupNames(jsonTeam, teamsArray){// jsonTeam is "team" key 
+   const returnObj = []
+   
+   for(let i = 0; i<teamsArray.length ;i++){
+     returnObj[i] = {}
+     returnObj[i].teamName = jsonTeam[i].name
+     returnObj[i].image = jsonTeam[i].image
+     returnObj[i].names = teamsArray[i]
 
-const team = [
-{"name": "Ali",
-"image":""},
+    }
+    return returnObj
 
-{"name": "Austin",
- "image":""},
-
-{"name": "Prabhnoor",
- "image":""},
-
-{"name": "Kieran",
- "image":""},
- {"name": "a",
- "image":""},
- {"name": "b",
-"image":""},
-
-{"name": "c",
- "image":""},
-
-{"name": "d",
- "image":""},
-
-{"name": "e",
- "image":""},
- {"name": "f",
- "image":""},
- {"name": "g",
- "image":""},
-
-{"name": "h",
- "image":""},
- {"name": "i",
- "image":""},
- {"name": "j",
-"image":""},
-
-{"name": "q",
- "image":""},
-
-{"name": "l",
- "image":""},
-
-{"name": "m",
- "image":""},
- {"name": "n",
- "image":""},
-]
-
-randomiser(null,team)
-
+ }

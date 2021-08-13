@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  /* background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
   background-repeat: no-repeat;
   height: 100%;
   font-family: monospace;
@@ -42,6 +42,13 @@ body {
   height: 230px;
 }
 
+.img-circle-people {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+
 .title {
   text-align: center;
 }
@@ -56,4 +63,24 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+}
+
+
+.people-name-list {
+  list-style: none;
+}
+
+.people-name-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2px;
+  border: 2px solid #dedede;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.people-name {
+  text-align: center;
+  padding-left: 8px;
 }
