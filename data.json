@@ -1,38 +1,40 @@
 {
-  "Themes": [{
-    "Mammals":{
+  "Themes": [
+     {
+      "themeType": "Mammals",
       "id": 1,
       "themeImage": "",
-      "team": [{"name": "Rats",
+      "team": [{"teamName": "Rats",
                  "image":""},
 
-                {"name": "SeaLions",
+                {"teamName": "SeaLions",
                   "image":""},
 
-                {"name": "Whales",
+                {"teamName": "Whales",
                   "image":""},
 
-                {"name": "Bats",
+                {"teamName": "Bats",
                   "image":""}
                 ]  
 
-    }},
-   {"Cars": {
+    },
+    { 
+      "themeType": "Cars",
       "id": 2,
       "themeImage": "",
-      "team": [{"name": "Beetles",
-        "image":""},
+      "team": [{"teamName": "Beetles",
+                 "image":""},
 
-         {"name": "Toyotas",
-         "image":""},
+                {"teamName": "Toyotas",
+                  "image":""},
 
-       {"name": "Mahindras",
-         "image":""},
+               {"teamName": "Mahindras",
+                 "image":""},
 
-       {"name": "Bats",
-         "image":""}
-       ]  
-    }}   
+                {"teamName": "Bats",
+                "image":""}
+                 ]  
+    }
   ],
 
   "peopleNames": 
