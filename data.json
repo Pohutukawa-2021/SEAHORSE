@@ -1,191 +1,173 @@
 {
-    "Themes": [
-       {
-        "themeType": "Animals",
-        "id": 1,
-        "themeImage": "mammals-cropped.jpg",
-        "team": [{"teamName": "Dogs",
-                   "image":"dogs.jpg"},               
-                    {"teamName": "SeaLions",
-                    "image":"sealions.jpg"},             
-                       {"teamName": "Whales",
-                    "image":"whale.jpg"},              
-                      {"teamName": "Bats",
-                    "image":"bats.jpg"}
-                  ]      },
-      { 
-        "themeType": "Pasta",
-        "id": 2,
-        "themeImage": "pasta.jpg",
-        "team": [{"teamName": "Bowties",
-                   "image":"bowties.jpg"},               
-                    {"teamName": "Elbows",
-                    "image":"elbows.jpg"},               
-                    {"teamName": "Spirals",
-                   "image":"spirals.jpg"},                
-                   {"teamName": "Plain Spaghetti",
-                  "image":"plainspaghetti.jpg"}
-                   ]  
-      },
-      { 
-        "themeType": "Sports",
-        "id": 3,
-        "themeImage": "sports.jpg",
-        "team": [{"teamName": "Basketballers",
-                   "image":"bball.jpg"},                
-                   {"teamName": "Footballers",
-                    "image":"footballers.jpg"},              
-                     {"teamName": "Netballers",
-                   "image":"netball.jpg"},               
-                    {"teamName": "Underwater Hockey Amateur Squad",
-                  "image":"underwater.jpg"}
-                   ]  
-      },
-      { 
-        "themeType": "Weather",
-        "id": 4,
-        "themeImage": "weather.jpg",
-        "team": [{"teamName": "Storms",
-                   "image":"storms.jpg"},               
-                    {"teamName": "Tornados",
-                    "image":"tornados.jpg"},              
-                     {"teamName": "Monsoons",
-                   "image":"monsoons.jpg"},              
-                     {"teamName": "Humidity",
-                  "image":"humidity.jpg"}
-                   ]  
-      },
-      { 
-        "themeType": "Snacks",
-        "id": 5,
-        "themeImage": "snacks.jpg",
-        "team": [{"teamName": "Rice Crackers",
-                   "image":"rice-crackers.jpg"},               
-                    {"teamName": "Chippies",
-                    "image":"chips.jpg"},             
-                      {"teamName": "Chocolate Raspberry Dusted Almonds",
-                   "image":"almonds.jpg"},              
-                     {"teamName": "Caramel TimTams",
-                  "image":"timtams.jpg"}
-                   ]  
-      },
-      { 
-        "themeType": "Music",
-        "id": 6,
-        "themeImage": "music.jpg",
-        "team": [{"teamName": "Hip-Hoppers",
-                   "image":"hiphop.jpg"},               
-                    {"teamName": "Jazz Band",
-                    "image":"jazzband.jpg"},              
-                     {"teamName": "Indie-Rockers",
-                   "image":"indierock.jpg"},               
-                    {"teamName": "Sea Shanty Singers",
-                  "image":"seashanty.jpg"}
-                   ]  
-      },
-      { 
-        "themeType": "Cars",
-        "id": 7,
-        "themeImage": "cars-cropped.jpg",
-        "team": [{"teamName": "Jaguars",
-                   "image":"jaguars.jpg"},              
-                     {"teamName": "Chevrolets",
-                    "image":"chev.jpg"},             
-                      {"teamName": "Ferraris",
-                   "image":"ferraris.jpg"},               
-                    {"teamName": "Dodgy Rental Cars",
-                  "image":"rental-car.jpg"}
-                   ]  
-      },
-      { 
-        "themeType": "Beverages",
-        "id": 8,
-        "themeImage": "iced-latte.jpg",
-        "team": [{"teamName": "Iced Lattes",
-                   "image":"iced-latte.jpg"},              
-                     {"teamName": "San Pellegrino",
-                    "image":"sanpel.jpg"},             
-                      {"teamName": "Powerade",
-                   "image":"powerade.jpg"},              
-                     {"teamName": "Off Milk",
-                  "image":"off-milk.jpg"}
-                   ]  
-      }    
-    ],    
+  "Themes": [
+    {
+      "themeType": "Animals",
+      "id": 1,
+      "themeImage": "mammals-cropped.jpg",
+      "team": [
+        { "teamName": "Dogs", "image": "dogs.jpg" },
+        { "teamName": "SeaLions", "image": "sealions.jpg" },
+        { "teamName": "Whales", "image": "whale.jpg" },
+        { "teamName": "Bats", "image": "bats.jpg" }
+      ]
+    },
+    {
+      "themeType": "Pasta",
+      "id": 2,
+      "themeImage": "pasta.jpg",
+      "team": [
+        { "teamName": "Bowties", "image": "bowties.jpg" },
+        { "teamName": "Elbows", "image": "elbows.jpg" },
+        { "teamName": "Spirals", "image": "spirals.jpg" },
+        { "teamName": "Plain Spaghetti", "image": "plainspaghetti.jpg" }
+      ]
+    },
+    {
+      "themeType": "Sports",
+      "id": 3,
+      "themeImage": "sports.jpg",
+      "team": [
+        { "teamName": "Basketballers", "image": "bball.jpg" },
+        { "teamName": "Footballers", "image": "footballers.jpg" },
+        { "teamName": "Netballers", "image": "netball.jpg" },
+        {
+          "teamName": "Underwater Hockey Amateur Squad",
+          "image": "underwater.jpg"
+        }
+      ]
+    },
+    {
+      "themeType": "Weather",
+      "id": 4,
+      "themeImage": "weather.jpg",
+      "team": [
+        { "teamName": "Storms", "image": "storms.jpg" },
+        { "teamName": "Tornados", "image": "tornados.jpg" },
+        { "teamName": "Monsoons", "image": "monsoons.jpg" },
+        { "teamName": "Humidity", "image": "humidity.jpg" }
+      ]
+    },
+    {
+      "themeType": "Snacks",
+      "id": 5,
+      "themeImage": "snacks.jpg",
+      "team": [
+        { "teamName": "Rice Crackers", "image": "rice-crackers.jpg" },
+        { "teamName": "Chippies", "image": "chips.jpg" },
+        {
+          "teamName": "Chocolate Raspberry Dusted Almonds",
+          "image": "almonds.jpg"
+        },
+        { "teamName": "Caramel TimTams", "image": "timtams.jpg" }
+      ]
+    },
+    {
+      "themeType": "Music",
+      "id": 6,
+      "themeImage": "music.jpg",
+      "team": [
+        { "teamName": "Hip-Hoppers", "image": "hiphop.jpg" },
+        { "teamName": "Jazz Band", "image": "jazzband.jpg" },
+        { "teamName": "Indie-Rockers", "image": "indierock.jpg" },
+        { "teamName": "Sea Shanty Singers", "image": "seashanty.jpg" }
+      ]
+    },
+    {
+      "themeType": "Cars",
+      "id": 7,
+      "themeImage": "cars-cropped.jpg",
+      "team": [
+        { "teamName": "Jaguars", "image": "jaguars.jpg" },
+        { "teamName": "Chevrolets", "image": "chev.jpg" },
+        { "teamName": "Ferraris", "image": "ferraris.jpg" },
+        { "teamName": "Dodgy Rental Cars", "image": "rental-car.jpg" }
+      ]
+    },
+    {
+      "themeType": "Beverages",
+      "id": 8,
+      "themeImage": "iced-latte.jpg",
+      "team": [
+        { "teamName": "Iced Lattes", "image": "iced-latte.jpg" },
+        { "teamName": "San Pellegrino", "image": "sanpel.jpg" },
+        { "teamName": "Powerade", "image": "powerade.jpg" },
+        { "teamName": "Off Milk", "image": "off-milk.jpg" }
+      ]
+    }
+  ],
 
-  "peopleNames": 
-  [
+  "peopleNames": [
     {
       "name": "Ali",
-      "image":"https://ca.slack-edge.com/T02SQPVAC-U023P86PY3B-976e2618adec-192"
+      "image": "https://ca.slack-edge.com/T02SQPVAC-U023P86PY3B-976e2618adec-192"
     },
     {
       "name": "Austin",
-      "image":"https://avatars.githubusercontent.com/u/85047232?v=4"
+      "image": "https://avatars.githubusercontent.com/u/85047232?v=4"
     },
     {
-      "name": "Kireran",
-      "image":"https://avatars.githubusercontent.com/u/72641947?v=4"
+      "name": "Kieran",
+      "image": "https://avatars.githubusercontent.com/u/72641947?v=4"
     },
     {
       "name": "Jessie",
-      "image":"https://avatars.githubusercontent.com/u/58745625?v=4"
+      "image": "https://avatars.githubusercontent.com/u/58745625?v=4"
     },
     {
       "name": "Prabhnoor",
-      "image":"https://ca.slack-edge.com/T02SQPVAC-U02548MA8BG-6727d8a9b7de-512"
+      "image": "https://ca.slack-edge.com/T02SQPVAC-U02548MA8BG-6727d8a9b7de-512"
     },
     {
       "name": "JV",
-      "image":"https://avatars.githubusercontent.com/u/83190123?v=4"
+      "image": "https://avatars.githubusercontent.com/u/83190123?v=4"
     },
     {
       "name": "Alan",
-      "image":"https://avatars.githubusercontent.com/u/85937572?v=4"
+      "image": "https://avatars.githubusercontent.com/u/85937572?v=4"
     },
     {
       "name": "Louis",
-      "image":"https://avatars.githubusercontent.com/u/62978181?v=4"
+      "image": "https://avatars.githubusercontent.com/u/62978181?v=4"
     },
     {
       "name": "Cris",
-      "image":"https://avatars.githubusercontent.com/u/80133173?v=4"
+      "image": "https://avatars.githubusercontent.com/u/80133173?v=4"
     },
     {
       "name": "Csiyang",
-      "image":"https://avatars.githubusercontent.com/u/67619008?v=4"
+      "image": "https://avatars.githubusercontent.com/u/67619008?v=4"
     },
     {
       "name": "James",
-      "image":"https://avatars.githubusercontent.com/u/80490743?v=4"
+      "image": "https://avatars.githubusercontent.com/u/80490743?v=4"
     },
     {
       "name": "Alex",
-      "image":"https://avatars.githubusercontent.com/u/85384120?v=4"
+      "image": "https://avatars.githubusercontent.com/u/85384120?v=4"
     },
     {
       "name": "Dianne",
-      "image":"https://avatars.githubusercontent.com/u/85599717?v=4"
+      "image": "https://avatars.githubusercontent.com/u/85599717?v=4"
     },
     {
       "name": "Dave",
-      "image":"https://www.gannett-cdn.com/presto/2021/01/14/USAT/dc53a309-036c-4be5-ad1a-5848fc169a46-PRESIDENT_DONALD_TRUMP.jpg?crop=3482,2131,x241,y108"
+      "image": "https://www.gannett-cdn.com/presto/2021/01/14/USAT/dc53a309-036c-4be5-ad1a-5848fc169a46-PRESIDENT_DONALD_TRUMP.jpg?crop=3482,2131,x241,y108"
     },
     {
       "name": "Sophia",
-      "image":"https://avatars.githubusercontent.com/u/85972272?v=4"
+      "image": "https://avatars.githubusercontent.com/u/85972272?v=4"
     },
     {
       "name": "Tadhg",
-      "image":"https://avatars.githubusercontent.com/u/83738717?v=4"
+      "image": "https://avatars.githubusercontent.com/u/83738717?v=4"
     },
     {
       "name": "Zahira",
-      "image":"https://avatars.githubusercontent.com/u/86027651?v=4"
+      "image": "https://avatars.githubusercontent.com/u/86027651?v=4"
     },
     {
       "name": "Caleb",
-      "image":"https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc2MzAyNDY4NjM0NzgwODQ1/joe-biden-gettyimages-1267438366.jpg"
+      "image": "https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc2MzAyNDY4NjM0NzgwODQ1/joe-biden-gettyimages-1267438366.jpg"
     }
-   ]  
+  ]
 }
