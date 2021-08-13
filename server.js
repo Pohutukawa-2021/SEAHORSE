@@ -1,6 +1,8 @@
 const express = require('express')
 const hbs = require('express-handlebars')
-const { getTeamsData } = require('./utils')
+// const { getTeamsData } = require('./utils')
+const path=require('path')
+const fs=require('fs')
 const routes = require('./routes')
 
 const server = express()
@@ -19,9 +21,29 @@ module.exports = server
 
 // Server routes/router(s)
 server.get('/', (req, res) => {
-    getTeamsData(getDataAsObject => {
-        const viewData = {
-            themes: getDataAsObject
+    const template='home'
+    const filepath=path.join(__dirname,'data.json')
+    fs.readFile(filepath,'utf8',(err,themeObj)=>{
+        console.log(themeObj)
+        if(err){
+            console.error(err.message)
+        }
+        else{
+            const parsedThemeObj=JSON.parse(themeObj)
+             const viewData={themes:parsedThemeObj.Themes}
+             console.log(viewData)
+             res.render(template,viewData)
         }
     })
+
+
+
+
+
+
+    // getTeamsData(getDataAsObject => {
+    //     const viewData = {
+    //         themes: getDataAsObject
+    //     }
+    // })
 })

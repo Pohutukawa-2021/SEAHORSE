@@ -3,7 +3,7 @@
      {
       "themeType": "Mammals",
       "id": 1,
-      "themeImage": "",
+      "themeImage": "/images/mammals-cropped.jpg",
       "team": [{"teamName": "Rats",
                  "image":""},
 
@@ -21,7 +21,7 @@
     { 
       "themeType": "Cars",
       "id": 2,
-      "themeImage": "",
+      "themeImage": "/images/ca-cropped.jpg",
       "team": [{"teamName": "Beetles",
                  "image":""},
 

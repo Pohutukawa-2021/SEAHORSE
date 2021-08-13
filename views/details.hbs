@@ -1,0 +1,15 @@
+{{#each teams}} //teams is the key that holds the object returned by random.js
+    <div class="puppy">
+        <img class="img-circle" src="{{image}}" alt="">
+        <h2>{{teamNames}}</h2>
+        <div>Members: 
+            <ul>
+                {{#each names}} //this is the array we get from the randomiser
+            <li>
+                {{name}}
+            </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+{{/each}}
