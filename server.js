@@ -1,12 +1,8 @@
 const express = require('express')
 const hbs = require('express-handlebars')
-<<<<<<< HEAD
-const { getTeamsData } = require('./utils')
-=======
-// const { getTeamsData } = require('./utils')
+const { getTeamsData } = require('./random.js')
 const path=require('path')
 const fs=require('fs')
->>>>>>> 2230a9bbf8c623edf23b47a42e4e0345e3b21027
 const routes = require('./routes')
 
 const server = express()

@@ -49,7 +49,7 @@ function assignGroups(peoplesNamesArray){
    
    for(let i = 0; i<teamsArray.length ;i++){
      returnObj[i] = {}
-     returnObj[i].teamName = jsonTeam[i].name
+     returnObj[i].teamName = jsonTeam[i].teamName
      returnObj[i].image = jsonTeam[i].image
      returnObj[i].names = teamsArray[i]
 

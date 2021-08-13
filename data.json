@@ -50,7 +50,7 @@
                     {"teamName": "Tornados",
                     "image":"tornados.jpg"},              
                      {"teamName": "Monsoons",
-                   "image":"mpnsoons.jpg"},              
+                   "image":"monsoons.jpg"},              
                      {"teamName": "Humidity",
                   "image":"humidity.jpg"}
                    ]  
@@ -90,7 +90,7 @@
         "team": [{"teamName": "Jaguars",
                    "image":"jaguars.jpg"},              
                      {"teamName": "Chevrolets",
-                    "image":"chevrolets.jpg"},             
+                    "image":"chev.jpg"},             
                       {"teamName": "Ferraris",
                    "image":"ferraris.jpg"},               
                     {"teamName": "Dodgy Rental Cars",
