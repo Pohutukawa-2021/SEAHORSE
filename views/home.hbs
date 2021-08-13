@@ -1,8 +1,8 @@
 <div class="container">
   {{#each themes}}
   <div class="puppy-list">
-    <div onclick="playAudio({{id}})" id="clickMe"></div><img class="img-circle" src="{{themeImage}}" alt="{{name}}"></a>
+    <a href="/team-selector/{{id}}"><img class="img-circle" src="{{themeImage}}" alt="{{name}}"></a>
+    <div>{{themeType}}</div>
   </div>
   {{/each}}
 </div>
-

@@ -1,41 +1,117 @@
 {
-  "Themes": [
-     {
-      "themeType": "Mammals",
-      "id": 1,
-      "themeImage": "/images/mammals-cropped.jpg",
-      "team": [{"teamName": "Rats",
-                 "image":""},
-
-                {"teamName": "SeaLions",
-                  "image":""},
-
-                {"teamName": "Whales",
-                  "image":"/images/whale.jpg"},
-
-                {"teamName": "Bats",
+    "Themes": [
+       {
+        "themeType": "Animals",
+        "id": 1,
+        "themeImage": "",
+        "team": [{"teamName": "Dogs",
+                   "image":""},               
+                    {"teamName": "SeaLions",
+                    "image":""},             
+                       {"teamName": "Whales",
+                    "image":""},              
+                      {"teamName": "Bats",
+                    "image":""}
+                  ]      },
+      { 
+        "themeType": "Pasta",
+        "id": 2,
+        "themeImage": "",
+        "team": [{"teamName": "Bowties",
+                   "image":""},               
+                    {"teamName": "Elbows",
+                    "image":""},               
+                    {"teamName": "Spirals",
+                   "image":""},                
+                   {"teamName": "Plain Spaghetti",
                   "image":""}
-                ]  
-
-    },
-    { 
-      "themeType": "Cars",
-      "id": 2,
-      "themeImage": "/images/cars-cropped.jpg",
-      "team": [{"teamName": "Beetles",
-                 "image":""},
-
-                {"teamName": "Toyotas",
-                  "image":"/images/toyota.jpg"},
-
-               {"teamName": "Mahindras",
-                 "image":""},
-
-                {"teamName": "Bats",
-                "image":""}
-                 ]  
-    }
-  ],
+                   ]  
+      },
+      { 
+        "themeType": "Sports",
+        "id": 3,
+        "themeImage": "",
+        "team": [{"teamName": "Basketballers",
+                   "image":""},                
+                   {"teamName": "Footballers",
+                    "image":""},              
+                     {"teamName": "Netballers",
+                   "image":""},               
+                    {"teamName": "Underwater Hockey Amateur Squad",
+                  "image":""}
+                   ]  
+      },
+      { 
+        "themeType": "Weather",
+        "id": 4,
+        "themeImage": "",
+        "team": [{"teamName": "Storms",
+                   "image":""},               
+                    {"teamName": "Tornados",
+                    "image":""},              
+                     {"teamName": "Monsoons",
+                   "image":""},              
+                     {"teamName": "Humidity",
+                  "image":""}
+                   ]  
+      },
+      { 
+        "themeType": "Snacks",
+        "id": 5,
+        "themeImage": "",
+        "team": [{"teamName": "Rice Crackers",
+                   "image":""},               
+                    {"teamName": "Chippies",
+                    "image":""},             
+                      {"teamName": "Chocolate Raspberry Dusted Almonds",
+                   "image":""},              
+                     {"teamName": "Caramel TimTams",
+                  "image":""}
+                   ]  
+      },
+      { 
+        "themeType": "Music",
+        "id": 6,
+        "themeImage": "",
+        "team": [{"teamName": "Hip-Hoppers",
+                   "image":""},               
+                    {"teamName": "Jazz Band",
+                    "image":""},              
+                     {"teamName": "Indie-Rockers",
+                   "image":""},               
+                    {"teamName": "Sea Shanty Singers",
+                  "image":""}
+                   ]  
+      },
+      { 
+        "themeType": "Cars",
+        "id": 7,
+        "themeImage": "",
+        "team": [{"teamName": "Jaguars",
+                   "image":""},              
+                     {"teamName": "Chevrolets",
+                    "image":""},             
+                      {"teamName": "Ferraris",
+                   "image":""},               
+                    {"teamName": "Dodgy Rental Cars",
+                  "image":""}
+                   ]  
+      },
+      { 
+        "themeType": "Beverages",
+        "id": 8,
+        "themeImage": "",
+        "team": [{"teamName": "Iced Lattes",
+                   "image":""},              
+                     {"teamName": "San Pellegrino",
+                    "image":""},             
+                      {"teamName": "Powerade",
+                   "image":""},              
+                     {"teamName": "Off Milk",
+                  "image":""}
+                   ]  
+      }    
+    ],    
 
   "peopleNames": 
   [
