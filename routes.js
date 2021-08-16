@@ -27,7 +27,6 @@ router.get('/:id', (req, res) => {
             const finalTeams = assignGroupNames(foundTeam.team, teamNames)
             viewData.teams = finalTeams             //final teams means that everythinig is done!! (final, duh!)
 
-             console.log(viewData)
              res.render(template, viewData)     // template is 'details'
         }
     })})

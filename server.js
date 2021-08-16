@@ -24,7 +24,7 @@ server.get('/', (req, res) => {
     const template='home'
     const filepath=path.join(__dirname,'data.json')
     fs.readFile(filepath,'utf8',(err,themeObj)=>{
-        console.log(themeObj)
+
         if(err){
             console.error(err.message)
         }
