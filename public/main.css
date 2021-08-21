@@ -3,14 +3,14 @@ html {
 }
 
 body {
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
   background-repeat: repeat;
   height: 100%;
   font-family: monospace;
 }
 
-.nav{
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -71,7 +71,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 .people-name-list {
   list-style: none;
 }
@@ -82,11 +81,37 @@ body {
   align-items: center;
   margin-top: 2px;
   border: 2px solid #dedede;
-    padding: 12px;
-    border-radius: 5px;
+  padding: 12px;
+  border-radius: 5px;
 }
 
 .people-name {
   text-align: center;
   padding-left: 8px;
+}
+
+.people-container {
+  grid-column: 3 /4;
+}
+
+.person-container {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  font-size: x-large;
+}
+
+.themes-container {
+  grid-column: 3 /4;
+}
+
+.theme-container {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  font-size: x-large;
+}
+
+.admin-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

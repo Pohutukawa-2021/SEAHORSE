@@ -1,22 +1,36 @@
-<section>
-    <h3>
-        People
-    </h3>
-    <a href="#">
-        <h1>Edit</h1>
-    </a>
-    <a href="#">
-        <h1>Add</h1>
-    </a>
-</section>
-<section>
-    <h3>
-        Themes
-    </h3>
-    <a href="#">
-        <h1>Edit</h1>
-    </a>
-    <a href="#">
-        <h1>Add</h1>
-    </a>
-</section>
+<div class="admin-container">
+    <section class="people-container">
+        <h3>
+            People <a>➕</a>
+        </h3>
+        <div >
+            {{#each people}}
+            <div class="person-container">
+                <div>
+                    🗑️
+                </div>
+                <div>
+                    {{name}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+    <section class="themes-container">
+        <h3>
+            Select <a>➕</a>
+        </h3>
+        <div >
+            {{#each themes}}
+            <div class="theme-container">
+                <div>
+                    🗑️
+                </div>
+                <div>
+                    {{name}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+</div>
