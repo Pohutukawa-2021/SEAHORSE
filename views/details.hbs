@@ -1,13 +1,13 @@
 <div class="container">
 {{#each teams}} 
     <div class="puppy-list">
-        <img class="img-circle" src="/images/{{image}}" alt="">
+        <img class="img-circle" src="/images/{{teamImageUrl}}" alt="">
         <h2>{{teamName}}</h2>
         <div>Members: 
             <ul class="people-name-list">
                 {{#each names}} 
             <li class="people-name-list-item">
-                <img class="img-circle-people" src="{{image}}" alt="">
+                <img class="img-circle-people" src="{{image_url}}" alt="">
                 <div class="people-name">{{name}}</div>
             </li>
                 {{/each}}

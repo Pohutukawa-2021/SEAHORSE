@@ -57,11 +57,12 @@ function shuffleArray(array) {
 }
 
 
-function assignGroupNames(jsonTeam, teamsArray) {// jsonTeam is "team" key 
+function assignGroupNames(team, teamsArray) {// jsonTeam is "team" key 
+  console.log(team);
   return teamsArray
-    .map((team, i) => ({
-      teamName: jsonTeam[i].teamName,
-      image: jsonTeam[i].image,
-      names: team
+    .map((people, i) => ({
+      teamName: team[i].teamName,
+      teamImageUrl: team[i].teamImageUrl,
+      names: people
     }))
 }

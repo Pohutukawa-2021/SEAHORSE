@@ -1,8 +1,6 @@
 const express = require('express')
 const hbs = require('express-handlebars')
-const { getTeamsData } = require('./random.js')
-const path=require('path')
-const fs=require('fs')
+const db = require('./db/index')
 const routes = require('./routes')
 
 const server = express()
@@ -20,19 +18,14 @@ server.set('view engine', 'hbs')
 module.exports = server
 
 // Server routes/router(s)
-server.get('/', (req, res) => {
-    const template='home'
-    const filepath=path.join(__dirname,'data.json')
-    fs.readFile(filepath,'utf8',(err,themeObj)=>{
+server.get('/', async (req, res) => {
+    try {
+        const themes = await db.getThemes()
+        const viewData = { themes }
+        res.render('home', viewData)
 
-        if(err){
-            console.error(err.message)
-        }
-        else{
-            const parsedThemeObj=JSON.parse(themeObj)
-             const viewData={themes:parsedThemeObj.Themes}
-             console.log(viewData)
-             res.render(template,viewData)
-        }
-    })
+    } catch (error) {
+        console.error(error);
+        res.status(500).send('bad error')
+    }
 })
