@@ -1,26 +1,24 @@
 <div class="container">
-{{#each teams}} 
+    {{#each teams}}
     <div class="puppy-list">
-        <img class="img-circle" src="/images/{{teamImageUrl}}" alt="">
         <h2>{{teamName}}</h2>
-        <div>Members: 
-            <ul class="people-name-list">
-                {{#each names}} 
+        <img class="img-circle" src="/images/{{teamImageUrl}}" alt="">
+        <ul class="people-name-list">
+            {{#each names}}
             <li class="people-name-list-item">
                 <img class="img-circle-people" src="{{image_url}}" alt="">
                 <div class="people-name">{{name}}</div>
             </li>
-                {{/each}}
-            </ul>
-        </div>
+            {{/each}}
+        </ul>
     </div>
-{{/each}}
+    {{/each}}
 </div>
-{{!-- 
+{{!--
 <div class="container">
-  {{#each puppies}}
-  <div class="puppy-list">
-    <a href="/puppies/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
-  </div>
-  {{/each}}
+    {{#each puppies}}
+    <div class="puppy-list">
+        <a href="/puppies/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
+    </div>
+    {{/each}}
 </div> --}}

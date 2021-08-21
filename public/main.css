@@ -10,6 +10,12 @@ body {
   font-family: monospace;
 }
 
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
